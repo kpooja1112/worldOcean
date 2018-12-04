@@ -72,6 +72,9 @@ img{
 	width: 100%;
 	font-size: 18px;
 }
+::-webkit-input-placeholder {
+	background-color: none;
+}
 
 /*styling for header section started.......*/
 
@@ -158,6 +161,11 @@ h1 {
 	color: #fff;
 
 }
+.search input[type=search] {
+	background-color: transparent !important;
+	-webkit-appearance:none;
+}
+
 .search button {
 	font-size: 15px;
 	/*margin-left: 20px;*/
@@ -167,3 +175,63 @@ h1 {
     top: 10px;
 }
 
+/*styling for banner is started..*/
+main {
+	width: 100%;
+
+}
+.banner {
+	width: 100%;
+	background: url('../image/Ocean-2018-Mexico-1700-300.jpg') center/cover no-repeat; 
+	padding: 97px 0px 87px; 
+}
+h2 {
+	font-size: 200%;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 28px;
+}
+.banner p {
+	color: #B2BCD7;
+	font-size: 90%;
+	letter-spacing: .5px;
+	
+}
+.banner p {
+	margin-bottom: 15px;
+}
+.banner p span:first-child:after {
+	content: '';
+    width: 2px;
+    height: 12px;
+    background-color: #B2BCD7;
+    margin: 0px 15px;
+    display: inline-block;
+}
+
+.banner p a {
+	width: 20%;
+	background-color: #fff;
+	color: #52679e;
+	padding: 12px 15px;
+	border: 2px solid #fff;
+	position: relative;
+}
+.banner p a:hover {
+	background-color: transparent;
+	color: #fff;
+}
+.banner p a i {
+	/*display: inline-block;*/
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+}
+.banner p:last-child span {
+	font-size: 80%;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 5%;
+}
