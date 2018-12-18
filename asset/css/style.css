@@ -344,7 +344,7 @@ aside p {
 	opacity: 0.8;
 }
 
-
+/*styling for section model started............*/
 .section-speaker ul {
 	width: 100%;
 }
@@ -358,4 +358,25 @@ aside p {
 	width: 85%;
 	height: auto;
 	border-radius: 50%;
+}
+
+.section-speaker .description {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+
+}
+.description li {
+	width: 50%;
+	margin: 0 auto;
+	display: none;
+}
+
+.description li:first-child {
+	display: block;
 }
