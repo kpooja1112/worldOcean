@@ -353,6 +353,8 @@ aside p {
 	width: 25%;
 	height: auto;
 	float: left;
+	cursor: pointer;
+
 }
 .section-speaker ul li img {
 	width: 85%;
@@ -361,7 +363,7 @@ aside p {
 }
 
 .section-speaker .description {
-	display: block;
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -378,6 +380,7 @@ aside p {
 	float: none;
 	background-color: #ddd;
 	padding: 10px;
+	position: relative;
 }
 .description li.block img {
 	width: 40%;
@@ -385,16 +388,17 @@ aside p {
 	
 	display: inline-block;
 }
-.description li.block h5{
+.description li.block h5 {
 	width: 40%;
 	font-size: 20px;
 	display: inline-block;
 	float: right;
     margin-top: 20%;
 }
-
-
-
-.description li.block:first-child {
-	display: block;
+.description li.block a {
+	position: absolute;
+	top: 5px;
+	right: 5px;
 }
+
+
