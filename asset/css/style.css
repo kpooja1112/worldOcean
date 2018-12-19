@@ -371,12 +371,30 @@ aside p {
 	background-color: rgba(0,0,0,0.5);
 
 }
-.description li {
+.description li.block {
 	width: 50%;
-	margin: 0 auto;
+	margin: 50px auto;
 	display: none;
+	float: none;
+	background-color: #ddd;
+	padding: 10px;
+}
+.description li.block img {
+	width: 40%;
+	height: auto;
+	
+	display: inline-block;
+}
+.description li.block h5{
+	width: 40%;
+	font-size: 20px;
+	display: inline-block;
+	float: right;
+    margin-top: 20%;
 }
 
-.description li:first-child {
+
+
+.description li.block:first-child {
 	display: block;
 }
